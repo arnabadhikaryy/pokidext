@@ -1,0 +1,88 @@
+body{
+    background: #000000;
+}
+
+h1,h2,h3,h4,h5,p{
+    color: aliceblue;
+    margin-left: 5%;
+}
+
+.inputt{
+    margin: 20px;
+    height: 2cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343333;
+}
+
+.inputt input{
+    height:1cm;
+    width: 7cm;
+    border-radius: 10px;
+    margin: 5%;
+    background: #343333;
+    color: rgb(255, 255, 255);
+}
+
+ button{
+    height:1cm;
+    border-radius: 10px;
+    background: #343333;
+    color: rgb(255, 255, 255);
+    margin: 3%;
+    cursor: pointer;
+}
+
+.display_pokimon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.display_pokimon_buttom{
+    height: 2cm;
+    background-color: #343333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    background-color: #343333;
+    cursor: pointer;
+    /* opacity: calc(70%); */
+}
+img:hover{
+    background-color: #000000;
+    /* opacity: calc(100%); */
+}
+
+.hight_and_power{
+    display: flex;
+    height: 1cm;
+}
+
+.pokimon_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokimon_details_page_buttom{
+    height: 3cm;
+    background-color:#343333;
+   margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loding_status{
+    height: 5cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-top: 10px;
+}
